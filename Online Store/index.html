@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Church Hat Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="script.js">
+</head>
+<body>
+    <header>
+        <h1>Church Hat Store</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="hats.html">Hats</a></li>
+                <li><a href="carts.html">Cart</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="hats">
+            <h2>Our Collection</h2>
+            <div class="hat" data-id="1">
+                <h3>Elegant White Hat</h3>
+                <p>Price: $50</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="hat" data-id="2">
+                <h3>Classic Black Hat</h3>
+                <p>Price: $45</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="hat" data-id="3">
+                <h3>Red Floral Hat</h3>
+                <p>Price: $60</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </section>
+        <section id="cart">
+            <h2>Shopping Cart</h2>
+            <ul id="cart-items"></ul>
+            <p>Total: $<span id="total-price">0</span></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Church Hat Store. All rights reserved.</p>
+        <p>Contact us at: <a href="mailto:info@churchhatstore.com">info@churchhatstore.com</a></p>
+        <p>Follow us on:
+            <a href="#">Facebook</a> |
+            <a href="#">Twitter</a> |
+            <a href="#">Instagram</a>
+        </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
